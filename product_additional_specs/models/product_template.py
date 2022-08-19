@@ -10,7 +10,45 @@ class ProductTemplate(models.Model):
 
     scientific_name = fields.Char(
         string="Scientific Name",
-        required=True,
+        required=False,
         index=True,
         tracking=True,
+    )
+    tare = fields.Char(
+        string="Tare",
+        required=False,
+        index=True,
+        tracking=True,
+    )
+    scandall = fields.Char(
+        string="Scandall",
+        required=False,
+        index=True,
+        tracking=True,
+    )
+    lot_name = fields.Char(
+        string="Lot name",
+        required=False,
+        index=True,
+        tracking=True,
+    )
+    production_method_id = fields.Many2one(
+        comodel_name="production.method",
+        string="Production method",
+        ondelete="restrict",
+    )
+    conservation_method_id = fields.Many2one(
+        comodel_name="conservation.method",
+        string="Conservation method",
+        ondelete="restrict",
+    )
+    fishing_art_id = fields.Many2one(
+        comodel_name="fishing.art",
+        string="Fishing art",
+        ondelete="restrict",
+    )
+    fao_zone_id = fields.Many2one(
+        comodel_name="fao.zone",
+        string="Fao zone",
+        ondelete="restrict",
     )

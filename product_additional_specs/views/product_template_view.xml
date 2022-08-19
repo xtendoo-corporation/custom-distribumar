@@ -5,10 +5,16 @@
         <field name="arch" type="xml">
             <xpath expr="//page[@name='general_information']" position="after">
                 <page name="additionals_specs" string="Additionals specs">
-<!--                    <label name="scientific_name" for="scientific_name" />-->
-                    <div>
+                    <group>
+                        <field name="tare" class="oe_inline"/>
+                        <field name="scandall" class="oe_inline" />
+                        <field name="lot_name" class="oe_inline" />
                         <field name="scientific_name" class="oe_inline" />
-                    </div>
+                        <field name="production_method_id" class="oe_inline"/>
+                        <field name="conservation_method_id" class="oe_inline"/>
+                        <field name="fishing_art_id" class="oe_inline"/>
+                        <field name="fao_zone_id" class="oe_inline"/>
+                    </group>
                 </page>
             </xpath>
         </field>

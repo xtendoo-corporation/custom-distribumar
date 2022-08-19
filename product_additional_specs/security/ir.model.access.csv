@@ -1,2 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_product_template,access_product_template,model_product_template,base.group_user,1,1,1,1
+access_production_method,access_production_method,model_production_method,base.group_user,1,1,1,1
+access_conservation_method,access_conservation_method,model_conservation_method,base.group_user,1,1,1,1
+access_fishing_art,access_fishing_art,model_fishing_art,base.group_user,1,1,1,1
+access_fao_zone,access_fao_zone,model_fao_zone,base.group_user,1,1,1,1
