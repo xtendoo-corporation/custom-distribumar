@@ -1,0 +1,159 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_additional_specs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-21 08:51+0000\n"
+"PO-Revision-Date: 2022-08-21 08:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_additional_specs
+#: model_terms:ir.ui.view,arch_db:product_additional_specs.product_template_additional_specs
+msgid "Additionals specs"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method__name
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__conservation_method_id
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__conservation_method_id
+msgid "Conservation method"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method__create_uid
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone__create_uid
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art__create_uid
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method__create_date
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone__create_date
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art__create_date
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method__display_name
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone__display_name
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art__display_name
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone__name
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__fao_zone_id
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__fao_zone_id
+msgid "Fao zone"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:res.groups,name:product_additional_specs.group_axdoo_field_notebook
+msgid "Field Notebook Manager"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art__name
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__fishing_art_id
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__fishing_art_id
+msgid "Fishing art"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method__id
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone__id
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art__id
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method__id
+msgid "ID"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method____last_update
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone____last_update
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art____last_update
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method__write_uid
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone__write_uid
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art__write_uid
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_conservation_method__write_date
+#: model:ir.model.fields,field_description:product_additional_specs.field_fao_zone__write_date
+#: model:ir.model.fields,field_description:product_additional_specs.field_fishing_art__write_date
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__lot_name
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__lot_name
+msgid "Lot name"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model,name:product_additional_specs.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__production_method_id
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__production_method_id
+#: model:ir.model.fields,field_description:product_additional_specs.field_production_method__name
+msgid "Production method"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__scandall
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__scandall
+msgid "Scandall"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__scientific_name
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__scientific_name
+msgid "Scientific Name"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_product__tare
+#: model:ir.model.fields,field_description:product_additional_specs.field_product_template__tare
+msgid "Tare"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model,name:product_additional_specs.model_conservation_method
+msgid "conservation.method"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model,name:product_additional_specs.model_fao_zone
+msgid "fao.zone"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model,name:product_additional_specs.model_fishing_art
+msgid "fishing.art"
+msgstr ""
+
+#. module: product_additional_specs
+#: model:ir.model,name:product_additional_specs.model_production_method
+msgid "production.method"
+msgstr ""
