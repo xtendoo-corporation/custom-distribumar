@@ -1,21 +1,18 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Product Additional Specs',
+    'name': 'Purchase pending received',
     'version': '15.0.1.0.0',
     'category': 'Tools',
-    'summary': 'Product additional specs',
+    'summary': 'Purchase pending received',
     'description': '''
-    Product additional specs
+    Purchase pending received
 ''',
     'license': 'AGPL-3',
     'author': 'Xtendoo',
     'depends': [
-        'product',
-        'mail',
+        'purchase',
     ],
     'data': [
-        'security/security.xml',
-        'security/ir.model.access.csv',
         'views/purchase_views.xml',
     ],
     'application': True,

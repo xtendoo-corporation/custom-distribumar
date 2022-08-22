@@ -1,0 +1,11 @@
+<odoo>
+    <record id="purchase_order_form_pending_received" model="ir.ui.view">
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.order.form" />
+        <field name="arch" type="xml">
+            <xpath position="before" expr="//sheet/notebook/page[@name='products']/field[@name='order_line']/tree/field[@name='qty_received']">
+                <field name="qty_received"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
