@@ -1,11 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="purchase_order_form_pending_received" model="ir.ui.view">
-        <field name="model">purchase.order</field>
-        <field name="inherit_id" ref="purchase.order.form" />
+    <data>
+        <record id="purchase_order_view_form_inherit" model="ir.ui.view">
+            <field name="name">purchase.order.form.inherit</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <xpath position="after" expr="//field[@name='order_line']//tree//field[@name='qty_received']">
+                    <field name="qty_pending_received"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+
+    <record model="ir.ui.view" id="view_purchase_order_pivot">
+        <field name="name">purchase.order.pending.view.pivot</field>
+        <field name="model">purchase.report</field>
+        <field name="inherit_id" ref="purchase.view_purchase_order_pivot"/>
         <field name="arch" type="xml">
-            <xpath position="before" expr="//sheet/notebook/page[@name='products']/field[@name='order_line']/tree/field[@name='qty_received']">
-                <field name="qty_received"/>
-            </xpath>
+            <pivot position="inside">
+                <field name="pending"/>
+            </pivot>
         </field>
     </record>
 </odoo>
