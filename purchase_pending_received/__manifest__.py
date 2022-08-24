@@ -11,6 +11,7 @@
     'author': 'Xtendoo',
     'depends': [
         'purchase',
+        'purchase_reception_status',
     ],
     'data': [
         'views/purchase_views.xml',

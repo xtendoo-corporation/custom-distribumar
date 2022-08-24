@@ -29,5 +29,5 @@ class PurchaseReport(models.Model):
         :rtype: str
         :return: SQL expression for discounted unit price.
         """
-        return "l.product_id, l.qty_pending_received as pending,"
+        return "l.product_id, (CASE WHEN po.force_received THEN 0 ELSE l.qty_pending_received END) as pending,"
 
