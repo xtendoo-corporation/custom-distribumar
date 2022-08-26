@@ -1,21 +1,18 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Product Additional Specs',
+    'name': 'Sale order bults boxes',
     'version': '15.0.1.0.0',
     'category': 'Tools',
-    'summary': 'Product additional specs',
+    'summary': 'Sale order bults boxes',
     'description': '''
-    Product additional specs
+    Sale order bults boxes
 ''',
     'license': 'AGPL-3',
     'author': 'Xtendoo',
     'depends': [
-        'product',
-        'mail',
+        'sale',
     ],
     'data': [
-        'security/security.xml',
-        'security/ir.model.access.csv',
         'views/sale_order_views.xml',
     ],
     'application': True,
