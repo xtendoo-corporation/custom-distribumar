@@ -13,7 +13,7 @@
         'purchase',
     ],
     'data': [
-        'views/sale_order_views.xml',
+        'views/purchase_views.xml',
     ],
     'application': True,
 }
