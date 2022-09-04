@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template
+            id="document_format_bults_boxes.invoice_document_bults_boxes"
+            inherit_id="document_format.report_invoice_without_grouped"
+        >
+              <xpath expr="//th[@name='th_description']" position="after">
+                  <th
+                        name="th_bults"
+                        class="text-right"
+                        style="solid; black; padding: 0px; margin: 0px; width:10%; font-size:0.8em; !important;"
+                  >
+                        Bults
+                  </th>
+                  <th
+                        name="th_boxes"
+                        class="text-right"
+                        style="solid; black; padding: 0px; margin: 0px; width:10%; font-size:0.8em; !important;"
+                  >
+                        Boxes
+                  </th>
+              </xpath>
+        </template>
+    </data>
+</odoo>

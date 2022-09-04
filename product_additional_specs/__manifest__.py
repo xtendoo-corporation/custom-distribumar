@@ -16,7 +16,7 @@
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
-        'views/sale_order_views.xml',
+        'views/product_template_view.xml',
     ],
     'application': True,
 }
