@@ -14,6 +14,7 @@
     ],
     'data': [
         'views/sale_order_views.xml',
+        'views/account_move.xml',
     ],
     'application': True,
 }

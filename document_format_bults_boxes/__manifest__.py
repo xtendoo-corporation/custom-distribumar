@@ -10,6 +10,7 @@
     "license": "AGPL-3",
     "depends": [
         "document_format",
+        "sale_order_bults_boxes",
     ],
     "data": [
         "views/invoice/invoice_document.xml",

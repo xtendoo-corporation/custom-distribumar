@@ -3,23 +3,37 @@
     <data>
         <template
             id="document_format_bults_boxes.invoice_document_bults_boxes"
-            inherit_id="document_format.report_invoice_without_grouped"
+            inherit_id="document_format.report_invoice_document_xtendoo"
         >
               <xpath expr="//th[@name='th_description']" position="after">
                   <th
                         name="th_bults"
                         class="text-right"
-                        style="solid; black; padding: 0px; margin: 0px; width:10%; font-size:0.8em; !important;"
+                        style="solid; black; padding: 0px; margin: 0px; width:5%; font-size:0.8em; !important;"
                   >
                         Bults
                   </th>
                   <th
                         name="th_boxes"
                         class="text-right"
-                        style="solid; black; padding: 0px; margin: 0px; width:10%; font-size:0.8em; !important;"
+                        style="solid; black; padding: 0px; margin: 0px; width:5%; font-size:0.8em; !important;"
                   >
                         Boxes
                   </th>
+              </xpath>
+              <xpath expr="//td[@name='account_invoice_line_name']" position="after">
+                  <td
+                    class="text-right"
+                    style="solid; black; padding: 0px; margin: 0px; width:5%; font-size:0.8em; !important;"
+                  >
+                    <span t-field="line.bults"/>
+                  </td>
+                  <td
+                    class="text-right"
+                    style="solid; black; padding: 0px; margin: 0px; width:5%; font-size:0.8em; !important;"
+                  >
+                    <span t-field="line.boxes"/>
+                  </td>
               </xpath>
         </template>
     </data>
